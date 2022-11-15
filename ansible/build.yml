@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: 192.168.146.128/24
   gather_facts: true
   roles:
     - { role: build }
